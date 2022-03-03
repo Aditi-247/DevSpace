@@ -1,0 +1,33 @@
+.header-bar{
+    background-color: #FFA200;
+    /* background-color: #292929; */
+}
+/* btn-primary */
+
+.input-dark{
+    background-color: #FBFCFC;
+    /* background-color: #444; */
+    border: transparent;
+    color: #ffffff;
+}
+
+.input-dark:focus{
+    color: #ffffff;
+    background-color: #FBFCFC;
+    /* background-color:rgb(85, 85, 85); */
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25)
+}
+.container--narrow{
+    max-width: 732px;;
+}
+
+.avatar-tiny{
+    width: 24px;
+    height: 24px;
+    border-radius:12px;
+    margin-right: 4px;
+    position: relative;
+    top:-1px;
+}
